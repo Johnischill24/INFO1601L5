@@ -81,3 +81,61 @@ let daysBetween = difference * 1.15741e-8;
 console.log(daysBetween);//54.6740790437368
 */
 
+
+
+/*Math object
+
+let root = Math.sqrt(9);// 3
+
+let cubed  = Math.pow(2, 3);// 8
+
+let roundDown = Math.floor(12.3453);// 12
+
+let roundUp = Math.ceil(12.3453);// 13
+
+let absolute = Math.abs(-34);// 34
+
+let randNum = Math.random();// random number between 0 and 1
+
+let pi = Math.pi;// pi in radians * 180 to convert to degrees
+
+//generate a random Integer between a supplied range
+function randInt(min, max){
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+*/
+
+
+/*
+//Task 6 - Functions - no return type
+
+function hello() {
+  console.log("hello");
+}
+*/
+
+/*
+//Parameters and Returning values
+function add(a, b){
+    return a + b;//undefined + undefined = NaN
+ }
+ 
+ let ans = add(5, 1);
+ console.log(ans); //6
+ 
+ let ans2 = add();
+ console.log(ans2); //NaN - not a number
+*/
+
+
+/*
+ //Defaul Parameters
+ function add(a, b=10){
+    return a + b;
+}
+
+console.log(add(5,11)); // logs 16
+
+console.log(add(2));// logs 12
+*/
+
